@@ -22,19 +22,18 @@ a:hover {
 
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 8vh;
 }
 
-.especies {
-  font-size: 17px;
+.botao-especies {
   color: #1351b4;
   border: none;
   background-color: #fff;
 }
 
-.entrar {
+.botao-entrar {
   border-radius: 28px;
   border: none;
   color: white;
@@ -42,19 +41,15 @@ nav {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 17px;
   background-color: #1351b4;
 }
 
-.nav-list {
-  align-items: center;
-  list-style: none;
+.lista-telas {
   display: flex;
-}
-
-.nav-list li {
-  margin-left: 32px;
-  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 25px;
 }
 
 .mobile-menu {
@@ -123,9 +118,7 @@ nav {
 
 /* MAIN */
 .title {
-  font-size: 35px;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* main {
