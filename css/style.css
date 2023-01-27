@@ -125,28 +125,25 @@ nav {
   padding: 30px 0;
 } */
 
-.blue-camp {
-  font-size: 25px;
-  padding-bottom: 25px;
+.dados-estatisticos {
   background-color: #0c326f;
-  padding-top: 10px;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
 }
 
-.title-blue-camp {
+.dados-estatisticos__titulo {
   text-align: center;
 }
 
-.number0 {
-  font-size: 100px;
+.dados-estatisticos__dados {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
 }
 
-.lorem-ipsum {
-  font-size: 15px;
-  text-align: center;
+.dado__numero {
+  font-size: 8em;
+  font-weight: bold;
 }
 
 .conteudos {
