@@ -3,11 +3,11 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   font-family: "Poppins", sans-serif;
-  /* max-width: 50%; */
 }
 
 /* Nav */
@@ -45,6 +45,7 @@ nav {
   font-size: 17px;
   background-color: #1351b4;
 }
+
 .nav-list {
   align-items: center;
   list-style: none;
@@ -127,9 +128,9 @@ nav {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-main {
-  padding-top: 100px;
-}
+/* main {
+  padding: 30px 0;
+} */
 
 .blue-camp {
   font-size: 25px;
