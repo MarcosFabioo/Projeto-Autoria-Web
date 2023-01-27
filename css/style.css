@@ -3,8 +3,8 @@
   padding: 0;
   font-family: "Noto Sans Buhid", sans-serif;
 }
-/* NAV */
 
+/* Nav */
 a {
   color: black;
   text-decoration: none;
@@ -113,12 +113,14 @@ nav {
 .mobile-menu.active .line3 {
   transform: rotate(45deg) translate(-5px, -7px);
 }
+
 /* MAIN */
 .title {
   font-size: 35px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .first_p,
 .second_p {
   font-size: 15px;
@@ -127,6 +129,7 @@ nav {
   text-align: start;
   padding-top: 40px;
 }
+
 .third_p {
   padding-bottom: 70px;
   font-size: 15px;
@@ -135,6 +138,7 @@ nav {
   text-align: start;
   padding-top: 40px;
 }
+
 main {
   padding-top: 100px;
 }
@@ -147,20 +151,23 @@ main {
   color: #fff;
   text-align: center;
 }
+
 .title-blue-camp {
   text-align: center;
 }
+
 .number0 {
   font-size: 100px;
   display: flex;
   justify-content: space-around;
 }
+
 .lorem-ipsum {
   font-size: 15px;
   text-align: center;
 }
 
-/* CAMPO ARTIGOS E SITE ABAIXO DA LINHA AZUL */
+/* Campo artigos e site abaixo da linha azul */
 .arch-section {
   padding-top: 100px;
   display: flex;
@@ -172,18 +179,22 @@ main {
   font-size: 15px;
   padding-left: 7px;
 }
+
 .articles li {
   list-style-type: none;
   text-align: start;
   padding: 7px;
 }
+
 .foto-ibama p {
   font-size: 13px;
   padding-bottom: 7px;
 }
+
 .articles li a {
   color: #0c326f;
 }
+
 .foto-ibama a {
   color: #0c326f;
 }
@@ -195,12 +206,15 @@ footer {
   flex-direction: column;
   padding-bottom: 30px;
 }
+
 footer h6 {
   font-size: 15px;
 }
+
 footer p {
   font-size: 15px;
 }
+
 .contact {
   margin-left: 15px;
 }
