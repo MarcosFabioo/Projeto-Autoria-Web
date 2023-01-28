@@ -11,7 +11,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/* MENU DE NAVEGAÇÃO */
 a {
   text-decoration: none;
 }
@@ -20,6 +19,7 @@ a:hover {
   opacity: 0.85;
 }
 
+/* MENU DE NAVEGAÇÃO */
 nav {
   display: flex;
   justify-content: space-between;
@@ -84,6 +84,16 @@ nav {
   justify-content: space-between;
 }
 
+@media screen and (max-width: 768px) {
+  .artigos {
+    flex-direction: column;
+  }
+}
+
+.artigos__artigo-destaque img {
+  width: 100%;
+}
+
 .artigos h3 {
   text-transform: uppercase;
 }
@@ -93,3 +103,13 @@ nav {
 }
 
 /* FOOTER */
+footer {
+  background-color: #071d41;
+  display: flex;
+  flex-direction: column;
+}
+
+footer h3,
+footer a {
+  color: white;
+}
