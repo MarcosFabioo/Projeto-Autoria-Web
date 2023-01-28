@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
+/* GERAL */
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +11,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/* Nav */
+/* MENU DE NAVEGAÇÃO */
 a {
   text-decoration: none;
 }
@@ -44,7 +45,7 @@ nav {
   gap: 25px;
 }
 
-/* MAIN */
+/* SEÇÃO PRINCIPAL */
 .title {
   text-align: center;
 }
@@ -77,43 +78,18 @@ nav {
   gap: 15px;
 }
 
-/* Campo artigos e site abaixo da linha azul */
-.arch-section {
+/* SEÇÃO DE ARTIGOS */
+.artigos {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
-.articles p {
-  font-size: 15px;
+.artigos h3 {
+  text-transform: uppercase;
 }
 
-.articles li {
-  list-style-type: none;
-  text-align: start;
+.artigos__lista-de-artigos__links {
+  list-style: none;
 }
 
-.foto-ibama p {
-  font-size: 13px;
-}
-
-.articles li a {
-  color: #0c326f;
-}
-
-.foto-ibama a {
-  color: #0c326f;
-}
-
-footer {
-  background-color: #071d41;
-  color: #ffffff;
-  flex-direction: column;
-}
-
-footer h6 {
-  font-size: 15px;
-}
-
-footer p {
-  font-size: 15px;
-}
+/* FOOTER */
