@@ -12,12 +12,11 @@ body {
 
 /* Nav */
 a {
-  color: black;
   text-decoration: none;
 }
 
 a:hover {
-  opacity: 0.7;
+  opacity: 0.85;
 }
 
 nav {
