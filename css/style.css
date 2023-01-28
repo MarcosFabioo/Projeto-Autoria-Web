@@ -73,6 +73,12 @@ nav {
   justify-content: space-around;
 }
 
+@media screen and (max-width: 768px) {
+  .dados-estatisticos__dados {
+    flex-direction: column;
+  }
+}
+
 .dado__numero {
   font-size: 8em;
   font-weight: bold;
