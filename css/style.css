@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 /* GERAL */
+:root {
+  --blue: #1351b4;
+  --medium-blue: #0c326f;
+  --dark-blue: #071d41;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -34,12 +40,12 @@ nav {
 }
 
 .botao-especies {
-  color: #1351b4;
+  color: var(--blue);
 }
 
 .botao-entrar {
-  color: #ffffff;
-  background-color: #1351b4;
+  color: white;
+  background-color: var(--blue);
   padding: 8px 20px;
   border-radius: 25px;
 }
@@ -58,8 +64,8 @@ nav {
 }
 
 .dados-estatisticos {
-  background-color: #0c326f;
-  color: #ffffff;
+  background-color: var(--medium-blue);
+  color: white;
   text-align: center;
 }
 
@@ -117,7 +123,7 @@ nav {
 
 /* FOOTER */
 footer {
-  background-color: #071d41;
+  background-color: var(--dark-blue);
   display: flex;
   flex-direction: column;
 }
