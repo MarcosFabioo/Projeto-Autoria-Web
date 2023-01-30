@@ -97,6 +97,10 @@ nav {
   gap: 15px;
 }
 
+main > :not(.dados-estatisticos) {
+  padding: 20px 60px;
+}
+
 /* SEÇÃO DE ARTIGOS */
 .artigos {
   display: flex;
