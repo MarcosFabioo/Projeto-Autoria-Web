@@ -26,6 +26,11 @@ a:hover {
   opacity: 0.85;
 }
 
+/* HEADER */
+header {
+  padding: 25px;
+}
+
 /* MENU DE NAVEGAÇÃO */
 nav {
   display: flex;
@@ -36,6 +41,9 @@ nav {
 @media screen and (max-width: 768px) {
   nav {
     flex-direction: column;
+  }
+  .logo {
+    margin-bottom: 15px;
   }
 }
 
@@ -67,6 +75,7 @@ nav {
   background-color: var(--medium-blue);
   color: white;
   text-align: center;
+  margin: 20px 0;
 }
 
 .dados-estatisticos__titulo {
@@ -101,6 +110,12 @@ main > :not(.dados-estatisticos) {
   padding: 20px 60px;
 }
 
+@media screen and (max-width: 768px) {
+  main > :not(.dados-estatisticos) {
+    padding: 20px 30px;
+  }
+}
+
 /* SEÇÃO DE ARTIGOS */
 .artigos {
   display: flex;
@@ -110,6 +125,9 @@ main > :not(.dados-estatisticos) {
 @media screen and (max-width: 768px) {
   .artigos {
     flex-direction: column;
+  }
+  .artigos__artigo-destaque {
+    margin-bottom: 20px;
   }
 }
 
@@ -123,6 +141,7 @@ main > :not(.dados-estatisticos) {
 
 .artigos__lista-de-artigos__links {
   list-style: none;
+  line-height: 30px;
 }
 
 /* FOOTER */
@@ -130,6 +149,7 @@ footer {
   background-color: var(--dark-blue);
   display: flex;
   flex-direction: column;
+  padding: 25px;
 }
 
 footer h3,
