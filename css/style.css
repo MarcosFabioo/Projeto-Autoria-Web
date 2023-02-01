@@ -120,23 +120,47 @@ main > :not(.dados-estatisticos) {
   }
 }
 /* TELA DE ESPECIE */
-.imagem_especie_tilapia {
-  width: 100%;
-}
-.nome_imagem {
-  justify-content: space-between;
+.especie-informacao {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  margin-top: 50px;
 }
 
-.linha_imagem {
-  width: 100%;
+.especie-informacao__nome {
+  display: flex;
+  justify-content: center;
   align-items: center;
-  text-align: center;
-  font-size: xx-large;
-  font-weight: bold;
-  line-height: 250px;
+  width: 75%;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  font-size: 1.5em;
+  padding: 50px 0;
 }
+
+.especie-informacao__imagem img {
+  width: 100%;
+}
+
+.especie-conteudo {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.especie-conteudo__informacao p {
+  text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+  .especie-informacao {
+    flex-direction: column;
+  }
+  .especie-informacao__nome {
+    width: 100%;
+  }
+}
+
 .informacao_especie {
   font-size: small;
 }
