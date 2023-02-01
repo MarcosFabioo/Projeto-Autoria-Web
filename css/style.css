@@ -144,6 +144,35 @@ main > :not(.dados-estatisticos) {
   line-height: 30px;
 }
 
+/* CADASTRO PARA ENTRAR */
+.conteudo-geral {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-cadastro {
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px #ccc;
+  background-color: #ffff;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+input {
+  border: none;
+  background-color: #ededed;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  padding: 8px;
+}
+
+.entrada {
+  display: flex;
+  flex-direction: column;
+}
+
 /* FOOTER */
 footer {
   background-color: var(--dark-blue);
