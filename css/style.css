@@ -121,7 +121,7 @@ main > :not(.dados-estatisticos) {
 }
 /* TELA DE ESPECIE */
 .imagem_especie_tilapia {
-  width: 573px;
+  width: 100%;
 }
 .nome_imagem {
   justify-content: space-between;
@@ -130,7 +130,7 @@ main > :not(.dados-estatisticos) {
 }
 
 .linha_imagem {
-  width: 999px;
+  width: 100%;
   align-items: center;
   text-align: center;
   font-size: xx-large;
@@ -139,6 +139,9 @@ main > :not(.dados-estatisticos) {
 }
 .informacao_especie {
   font-size: small;
+}
+.informacao_especie p {
+  text-align: justify;
 }
 
 @media screen and (max-width: 768px) {
