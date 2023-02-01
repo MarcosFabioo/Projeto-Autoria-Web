@@ -148,9 +148,10 @@ main > :not(.dados-estatisticos) {
 .conteudo-geral {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 30px;
 }
 
-.card-cadastro {
+.card-texto {
   border-radius: 10px;
   box-shadow: 3px 3px 3px #ccc;
   background-color: #ffff;
@@ -158,6 +159,17 @@ main > :not(.dados-estatisticos) {
   display: flex;
   flex-direction: column;
   gap: 16px;
+}
+
+.form-cadastro {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.entrada {
+  display: flex;
+  flex-direction: column;
 }
 
 input {
@@ -168,9 +180,54 @@ input {
   padding: 8px;
 }
 
-.entrada {
+.imagem-especie-cadastro {
+  width: 100%;
+}
+
+.informacao-cadastro {
+  max-width: 750px;
+}
+
+.logo-slogan-cadastro {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  gap: 10px;
+  padding: 10px 0px 10px 0px;
+  text-align: justify;
+}
+
+.logo-slogan-cadastro > :not(.hr-slogan) {
+  align-items: center;
+}
+
+.informacao-caracol {
+  text-align: justify;
+  padding: 10px 0px 0px 0px;
+}
+
+.botao-continuar {
+  color: white;
+  background-color: var(--blue);
+  margin: auto 0px auto 150px;
+  padding: 8px;
+  border-style: none;
+  border-radius: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.ajuda {
+  line-height: 35px;
+}
+
+@media screen and (max-width: 768px) {
+  .conteudo-geral {
+    flex-direction: column;
+    align-items: center;
+  }
+  .informacao-caracol {
+    padding: 10px 0px 30px 0px;
+  }
 }
 
 /* FOOTER */
