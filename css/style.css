@@ -309,6 +309,35 @@ input {
   }
 }
 
+/* Página espécie */
+.dados-especie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.dados-especie img {
+  width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .dados-especie img {
+    width: 100%;
+  }
+}
+
+.conteudo-especie {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.conteudo-especie__informacao p {
+  text-align: justify;
+}
+
 /* FOOTER */
 footer {
   background-color: var(--dark-blue);
