@@ -149,6 +149,10 @@ main > :not(.dados-estatisticos) {
   line-height: 30px;
 }
 
+.artigos__lista-de-artigos__links a {
+  display: inline-block;
+}
+
 /* CARD ESPÉCIES */
 .conteudo-especies__especie {
   background-color: #f8f7f7;
