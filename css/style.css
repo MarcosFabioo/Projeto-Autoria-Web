@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
 /* GERAL */
 :root {
@@ -106,10 +107,6 @@ nav {
   gap: 15px;
 }
 
-main {
-  min-height: calc(100vh - 200px);
-}
-
 main > :not(.dados-estatisticos) {
   padding: 20px 60px;
 }
@@ -146,6 +143,46 @@ main > :not(.dados-estatisticos) {
 .artigos__lista-de-artigos__links {
   list-style: none;
   line-height: 30px;
+}
+
+.artigos__lista-de-artigos__links a {
+  display: inline-block;
+}
+
+/* CARD ESPÉCIES */
+.conteudo-especies__especie {
+  background-color: #f8f7f7;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px #ccc;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.conteudo-especies__especie a {
+  color: var(--blue);
+}
+
+.conteudo-especies__especie__texto p {
+  text-align: justify;
+}
+
+.conteudo-especies {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.conteudo-especies__especie__imagem {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .conteudo-especies {
+    flex-direction: column;
+  }
 }
 
 /* CADASTRO PARA ENTRAR */
