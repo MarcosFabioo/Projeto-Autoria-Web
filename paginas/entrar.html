@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/style.css" />
-    <title>MEII - Entrar</title>
+    <title>MEEI: Entrar</title>
   </head>
   <body>
     <header>
       <nav>
-        <img src="../img/MEEI.png" alt="MEEI" class="logo" />
+        <a href="../index.html">
+          <img src="../img/MEEI.png" alt="MEEI" class="logo" />
+        </a>
         <ul class="lista-telas">
           <li>
             <a class="botao-especies" href="especies.html">Espécies</a>
@@ -22,27 +24,21 @@
       </nav>
     </header>
     <main>
-      <div class="conteudo-geral">
-        <div class="informacao-cadastro">
+      <div class="container-cadastro">
+        <div class="container-cadastro__cadastro">
           <img
-            src="/img/caramujo.png"
+            src="../img/caramujo.png"
             alt="Imagem do caramujo-gigante-africano"
             class="imagem-especie_cadastro"
           />
-          <div class="logo-slogan_cadastro">
-            <img
-              src="../img/MEEI.png"
-              alt="Logo do site"
-              width="75px"
-              height="25px"
-            />
-            <hr />
+          <div class="container-cadastro__logo">
+            <img src="../img/MEEI.png" alt="Logo do site" />
             <p>
               O primeiro passo para o combate às espécies invasoras é o
               conhecimento
             </p>
           </div>
-          <p class="informacao-caracol">
+          <p class="container-cadastro__especie">
             O <b>caracol-gigante-africano</b>, espécie exótica invasora presente
             também no RN, é vetor de 2 vermes que transmitem doenças:
             <i>Angiostrongylus costaricensis</i>, causador da angiostrongilíase
@@ -50,17 +46,12 @@
             angiostrongilíase meningoencefálica humana.
           </p>
         </div>
-        <div class="card-cadastro">
-          <form class="form-cadastro">
+        <div class="container-formulario">
+          <form class="container-formulario__form">
             <h3>Cadastre-se no MEEI.com.br</h3>
-            <div class="entrada">
+            <div class="container-formulario__form__input">
               <label for="id-email">
-                <img
-                  src="/img/icone-cadastro.png"
-                  alt="Ícone de cadastro"
-                  width="18px"
-                  height="15px"
-                />
+                <img src="../img/icone-cadastro.png" alt="Ícone de cadastro" />
                 E-mail</label
               >
               <input
@@ -71,14 +62,9 @@
                 required
               />
             </div>
-            <div class="entrada">
+            <div class="container-formulario__form__input">
               <label for="id-nome">
-                <img
-                  src="/img/icone-cadastro.png"
-                  alt="Ícone de cadastro"
-                  width="18px"
-                  height="15px"
-                />
+                <img src="../img/icone-cadastro.png" alt="Ícone de cadastro" />
                 Nome</label
               >
               <input
@@ -89,14 +75,9 @@
                 required
               />
             </div>
-            <div class="entrada">
+            <div class="container-formulario__form__input">
               <label for="id-senha">
-                <img
-                  src="/img/icone-cadastro.png"
-                  alt="Ícone de cadastro"
-                  width="18px"
-                  height="15px"
-                />
+                <img src="../img/icone-cadastro.png" alt="Ícone de cadastro" />
                 Senha</label
               >
               <input
@@ -107,14 +88,9 @@
                 required
               />
             </div>
-            <div class="entrada">
+            <div class="container-formulario__form__input">
               <label for="id-senha-confirm">
-                <img
-                  src="/img/icone-cadastro.png"
-                  alt="Ícone de cadastro"
-                  width="18px"
-                  height="15px"
-                />
+                <img src="../img/icone-cadastro.png" alt="Ícone de cadastro" />
                 E-mail</label
               >
               <input
@@ -127,27 +103,17 @@
             </div>
             <input type="submit" value="Continuar" class="botao-continuar" />
           </form>
-          <div class="ajuda">
-            <h4>Ajude-nos</h4>
-            <hr />
-            <p>
-              <img
-                src="/img/icone-dialogo.png"
-                alt="Ícone de diálogo"
-                width="10px"
-                height="11px"
-              />
+          <div class="container-ajude-nos">
+            <h3>Ajude-nos</h4>
+
+            <div class="container-ajude-nos__ajuda">
+              <img src="../img/icone-dialogo.png" alt="Ícone de diálogo" />
               Escreva depoimentos
-            </p>
-            <p>
-              <img
-                src="/img/icone-dialogo.png"
-                alt="Ícone de diálogo"
-                width="10px"
-                height="11px"
-              />
+            </div>
+            <div class="container-ajude-nos__ajuda">
+              <img src="../img/icone-dialogo.png" alt="Ícone de diálogo" />
               Promova discussões
-            </p>
+            </div>
           </div>
         </div>
       </div>

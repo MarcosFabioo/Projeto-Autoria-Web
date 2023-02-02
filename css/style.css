@@ -190,14 +190,14 @@ main > :not(.dados-estatisticos) {
 }
 
 /* CADASTRO PARA ENTRAR */
-.conteudo-geral {
+.container-cadastro {
   display: flex;
   justify-content: space-between;
   margin: 20px 0;
   gap: 15px;
 }
 
-.card-cadastro {
+.container-formulario {
   border-radius: 10px;
   box-shadow: 0 0 2px 2px #ccc;
   background-color: #ffff;
@@ -208,13 +208,13 @@ main > :not(.dados-estatisticos) {
   gap: 70px;
 }
 
-.form-cadastro {
+.container-formulario__form {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.entrada {
+.container-formulario__form__input {
   display: flex;
   flex-direction: column;
 }
@@ -231,21 +231,48 @@ input {
   width: 100%;
 }
 
-.informacao-cadastro {
+.container-cadastro__cadastro {
   max-width: 750px;
 }
 
-.logo-slogan_cadastro {
+.container-cadastro__logo {
   display: flex;
   flex-direction: row;
   gap: 10px;
-  padding: 10px 0px 10px 0px;
+  padding-top: 10px;
+  padding-left: 10px;
   text-align: justify;
 }
 
-.informacao-caracol {
+.container-cadastro__logo img {
+  width: 75px;
+  height: 25px;
+  border-right: 1px solid #ccc;
+  padding-right: 10px;
+}
+
+.container-cadastro__especie {
   text-align: justify;
   padding: 10px 0px 0px 0px;
+}
+
+.container-formulario__form__input label {
+  font-weight: 500;
+}
+
+.container-formulario__form__input img {
+  width: 18px;
+  height: 15px;
+}
+
+.container-ajude-nos img {
+  width: 10px;
+  height: 11px;
+}
+
+.container-ajude-nos h3 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
 }
 
 .botao-continuar {
@@ -264,20 +291,20 @@ input {
   opacity: 0.8;
 }
 
-.ajuda {
+.container-ajude-nos {
   line-height: 35px;
 }
 
 @media screen and (max-width: 768px) {
-  .conteudo-geral {
+  .container-cadastro {
     flex-direction: column;
     align-items: center;
     margin: 30px;
   }
-  .informacao-caracol {
+  .container-cadastro__especie {
     padding: 10px 0px 30px 0px;
   }
-  .card-cadastro {
+  .container-formulario {
     width: auto;
   }
 }
