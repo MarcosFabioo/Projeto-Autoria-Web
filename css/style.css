@@ -106,6 +106,10 @@ nav {
   gap: 15px;
 }
 
+main {
+  min-height: calc(100vh - 200px);
+}
+
 main > :not(.dados-estatisticos) {
   padding: 20px 60px;
 }
@@ -211,6 +215,11 @@ input {
   border-radius: 25px;
   font-weight: bold;
   text-align: center;
+  cursor: pointer;
+}
+
+.botao-continuar:hover {
+  opacity: 0.8;
 }
 
 .ajuda {
