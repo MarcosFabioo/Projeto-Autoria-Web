@@ -154,6 +154,12 @@ main > :not(.dados-estatisticos) {
 }
 
 /* CARD ESPÉCIES */
+.conteudo-especies {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
 .conteudo-especies__especie {
   background-color: #f8f7f7;
   border-radius: 10px;
@@ -162,6 +168,7 @@ main > :not(.dados-estatisticos) {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  width: 45%;
 }
 
 .conteudo-especies__especie a {
@@ -172,13 +179,6 @@ main > :not(.dados-estatisticos) {
   text-align: justify;
 }
 
-.conteudo-especies {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 60px;
-}
-
 .conteudo-especies__especie__imagem {
   width: 100%;
 }
@@ -186,6 +186,9 @@ main > :not(.dados-estatisticos) {
 @media screen and (max-width: 768px) {
   .conteudo-especies {
     flex-direction: column;
+  }
+  .conteudo-especies__especie {
+    width: 100%;
   }
 }
 
