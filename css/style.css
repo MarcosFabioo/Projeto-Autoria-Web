@@ -193,12 +193,13 @@ main > :not(.dados-estatisticos) {
 .conteudo-geral {
   display: flex;
   justify-content: space-between;
-  margin: 70px;
+  margin: 20px 0;
+  gap: 15px;
 }
 
 .card-cadastro {
   border-radius: 10px;
-  box-shadow: 3px 3px 3px #ccc;
+  box-shadow: 0 0 2px 2px #ccc;
   background-color: #ffff;
   padding: 30px 50px 30px 50px;
   width: 420px;
