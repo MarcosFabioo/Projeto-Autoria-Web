@@ -5,6 +5,7 @@
   --blue: #1351b4;
   --medium-blue: #0c326f;
   --dark-blue: #071d41;
+  --grey: #ccc;
 }
 
 * {
@@ -160,10 +161,9 @@ main > :not(.dados-estatisticos) {
 }
 
 .conteudo-especies__especie {
-  /* color lighter than f8f7f7 */
   background-color: whitesmoke;
   border-radius: 10px;
-  box-shadow: 3px 3px 3px #ccc;
+  box-shadow: 3px 3px 3px var(--grey);
   padding: 25px;
   display: flex;
   flex-direction: column;
@@ -202,9 +202,9 @@ main > :not(.dados-estatisticos) {
 
 .container-formulario {
   border-radius: 10px;
-  box-shadow: 0 0 2px 2px #ccc;
+  box-shadow: 0 0 2px 2px var(--grey);
   background-color: #ffff;
-  padding: 30px 50px 30px 50px;
+  padding: 30px 50px;
   width: 420px;
   display: flex;
   flex-direction: column;
@@ -250,13 +250,13 @@ input {
 .container-cadastro__logo img {
   width: 75px;
   height: 25px;
-  border-right: 1px solid #ccc;
+  border-right: 1px solid var(--grey);
   padding-right: 10px;
 }
 
 .container-cadastro__especie {
   text-align: justify;
-  padding: 10px 0px 0px 0px;
+  padding-top: 10px;
 }
 
 .container-formulario__form__input label {
@@ -274,14 +274,14 @@ input {
 }
 
 .container-ajude-nos h3 {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid var(--grey);
   padding-bottom: 5px;
 }
 
 .botao-continuar {
   color: white;
   background-color: var(--blue);
-  margin: auto 0px auto 150px;
+  margin: 0 0px 0 150px;
   padding: 8px;
   border-style: none;
   border-radius: 25px;
@@ -305,14 +305,15 @@ input {
     margin: 30px;
   }
   .container-cadastro__especie {
-    padding: 10px 0px 30px 0px;
+    padding-top: 10px;
+    padding-bottom: 30px;
   }
   .container-formulario {
     width: auto;
   }
 }
 
-/* Página espécie */
+/* PÁGINA ESPÉCIE */
 .dados-especie {
   display: flex;
   flex-direction: column;
