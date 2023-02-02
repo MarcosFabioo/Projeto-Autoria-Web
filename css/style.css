@@ -161,7 +161,8 @@ main > :not(.dados-estatisticos) {
 }
 
 .conteudo-especies__especie {
-  background-color: #f8f7f7;
+  /* color lighter than f8f7f7 */
+  background-color: whitesmoke;
   border-radius: 10px;
   box-shadow: 3px 3px 3px #ccc;
   padding: 25px;
