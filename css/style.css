@@ -48,11 +48,11 @@ nav {
   }
 }
 
-.botao-especies {
+.lista-telas__especie {
   color: var(--blue);
 }
 
-.botao-entrar {
+.lista-telas__entrar {
   color: white;
   background-color: var(--blue);
   padding: 8px 20px;
