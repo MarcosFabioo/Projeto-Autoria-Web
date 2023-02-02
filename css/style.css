@@ -144,13 +144,13 @@ main > :not(.dados-estatisticos) {
   text-transform: uppercase;
 }
 
-.artigos__lista-de-artigos__links {
-  list-style: none;
-  line-height: 30px;
+.artigos a {
+  color: var(--medium-blue);
 }
 
-.artigos__lista-de-artigos__links a {
-  display: inline-block;
+.artigos__lista-de-artigos__links {
+  list-style: none;
+  line-height: 35px;
 }
 
 /* CARD ESPÉCIES */
